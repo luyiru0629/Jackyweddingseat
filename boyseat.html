@@ -55,7 +55,7 @@
 </head>
 <body>
 <div class="container">
-  <h1>新娘朋友座位查詢，如果輸入後找不到座位，一定是新娘又打錯字，請找人工帶位，謝謝您</h1>
+  <h1>新郎朋友座位查詢，如果輸入後找不到座位，一定是新郎又打錯字，請找人工帶位，謝謝您</h1>
   <input type="text" id="nameInput" placeholder="請輸入姓名">
   <br>
   <button onclick="checkSeat()">查詢座位</button>
@@ -202,10 +202,11 @@ function checkSeat() {
     result.textContent = `${name} 您的座位在：${seatMap[name]} 🎉`;
     result.style.color = "#32cd32";
   } else {
-    result.textContent = "新娘打錯字機率高，請找人工帶位。";
+    result.textContent = "新郎打錯字機率高，請找人工帶位。";
     result.style.color = "#c71585";
   }
 }
 </script>
 </body>
 </html>
+
